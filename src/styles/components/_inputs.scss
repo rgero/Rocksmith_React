@@ -1,0 +1,33 @@
+.text-input {
+    border: 1px solid #cacccd;
+    height: 50px;
+    width: 30%;
+    font-size: $font-size-large;
+    font-weight: 300;
+    padding: $s-size;
+  }
+  
+  .selectTeams {
+    @extend .text-input;
+    height: 200px;
+  }
+
+  .select {
+    @extend .text-input;
+  }
+  
+  .textarea {
+    @extend .text-input;
+    height: 10rem;
+  }
+
+  .textarea_practice {
+    @extend .textarea;
+    width: 100%
+  }
+  
+  .duration-input {
+    @extend .text-input;
+    width: 55px;
+    text-align:center;
+  }

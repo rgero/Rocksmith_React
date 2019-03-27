@@ -13,6 +13,7 @@ export const executeQuery = (query) => {
             .then( (data) => {
                 // Convert the collection of objects into an Array
                 var dlc = Object.values(data);
+                console.log(dlc.length);
                 dispatch(setDLC(dlc)) } )
     }
 }

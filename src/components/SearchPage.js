@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import Header from './Header';
 import SearchHeader from './SearchHeader';
 import { SearchForm } from './SearchForm';
+import {executeQuery} from '../actions/dlc';
 
 class SearchPage extends React.Component {
 
@@ -29,4 +30,10 @@ class SearchPage extends React.Component {
   }
 }
 
-export default connect(undefined, undefined)(SearchPage);
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onSubmit: (query) => dispatch(executeQuery(query))
+  }
+}
+
+export default connect(undefined, mapDispatchToProps)(SearchPage);

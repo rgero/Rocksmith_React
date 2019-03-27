@@ -11,11 +11,11 @@ export class SearchForm extends React.Component {
         this.resetState = this.resetState.bind(this);
 
         this.state = {
-            artistNames: [],
-            songNames: [],
-            leadTunings: [],
-            rhythmTunings: [],
-            bassTunings: [],
+            artistNames: "",
+            songNames: "",
+            leadTunings: "",
+            rhythmTunings: "",
+            bassTunings: ""
         };
     };
     
@@ -32,11 +32,11 @@ export class SearchForm extends React.Component {
 
     resetState(){
         this.setState({
-            artistNames: [],
-            songNames: [],
-            leadTunings: [],
-            rhythmTunings: [],
-            bassTunings: [],
+            artistNames: "",
+            songNames: "",
+            leadTunings: "",
+            rhythmTunings: "",
+            bassTunings: "",
         })
     }
 
@@ -46,6 +46,26 @@ export class SearchForm extends React.Component {
             case "artistNames":
                 this.setState({
                     artistNames: newValue
+                });
+                break;
+            case "songNames":
+                this.setState({
+                    songNames: newValue
+                });
+                break;
+            case "leadTunings":
+                this.setState({
+                    leadTunings: newValue
+                });
+                break;
+            case "rhythmTunings":
+                this.setState({
+                    rhythmTunings: newValue
+                });
+                break;
+            case "bassTunings":
+                this.setState({
+                    bassTunings: newValue
                 });
                 break;
             default:
@@ -66,6 +86,50 @@ export class SearchForm extends React.Component {
                             autoFocus
                             value={this.state.artistNames}
                             onChange={this.onTextChange("artistNames")}
+                        />
+                    </div>
+                    <div className="form__input">
+                        <label>Song Names</label>
+                        <input
+                            type="text"
+                            className="text-input"
+                            placeholder="Names"
+                            autoFocus
+                            value={this.state.songNames}
+                            onChange={this.onTextChange("songNames")}
+                        />
+                    </div>
+                    <div className="form__input">
+                        <label>Lead Tuning</label>
+                        <input
+                            type="text"
+                            className="text-input"
+                            placeholder="Lead Tuning"
+                            autoFocus
+                            value={this.state.leadTunings}
+                            onChange={this.onTextChange("leadTunings")}
+                        />
+                    </div>
+                    <div className="form__input">
+                        <label>Rhythm Tunings</label>
+                        <input
+                            type="text"
+                            className="text-input"
+                            placeholder="Rhythm Tunings"
+                            autoFocus
+                            value={this.state.rhythmTunings}
+                            onChange={this.onTextChange("rhythmTunings")}
+                        />
+                    </div>
+                    <div className="form__input">
+                        <label>Bass Tuning</label>
+                        <input
+                            type="text"
+                            className="text-input"
+                            placeholder="Bass Tuning"
+                            autoFocus
+                            value={this.state.bassTunings}
+                            onChange={this.onTextChange("bassTunings")}
                         />
                     </div>
                     <div className="buttons">

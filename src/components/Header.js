@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const Header = () => (
     <header className="header">
         <div className="header__content">
-            <Link className="header__title" to="/" exact="true"><h1>Name coming soon</h1></Link>
+            <Link className="header__title" to="/" exact="true"><h1>Rocksmith DLC Searcher</h1></Link>
         </div>
     </header>
 );

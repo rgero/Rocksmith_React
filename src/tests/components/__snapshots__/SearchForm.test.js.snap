@@ -1,0 +1,1083 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Test 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SearchForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <form
+        className="form"
+        onSubmit={[Function]}
+      >
+        <div
+          className="form__input"
+        >
+          <label>
+            Artist Names
+          </label>
+          <input
+            autoFocus={true}
+            className="text-input"
+            onChange={[Function]}
+            placeholder="Names"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form__input"
+        >
+          <label>
+            Song Names
+          </label>
+          <input
+            autoFocus={true}
+            className="text-input"
+            onChange={[Function]}
+            placeholder="Names"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form__input"
+        >
+          <label>
+            Lead Tuning
+          </label>
+          <input
+            autoFocus={true}
+            className="text-input"
+            onChange={[Function]}
+            placeholder="Lead Tuning"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form__input"
+        >
+          <label>
+            Rhythm Tunings
+          </label>
+          <input
+            autoFocus={true}
+            className="text-input"
+            onChange={[Function]}
+            placeholder="Rhythm Tunings"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form__input"
+        >
+          <label>
+            Bass Tuning
+          </label>
+          <input
+            autoFocus={true}
+            className="text-input"
+            onChange={[Function]}
+            placeholder="Bass Tuning"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="buttons"
+        >
+          <button
+            className="button"
+            onClick={[Function]}
+          >
+            Reset
+          </button>
+          <button
+            className="button"
+          >
+            Submit
+          </button>
+        </div>
+      </form>,
+      "className": "content-container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="form__input"
+          >
+            <label>
+              Artist Names
+            </label>
+            <input
+              autoFocus={true}
+              className="text-input"
+              onChange={[Function]}
+              placeholder="Names"
+              type="text"
+              value=""
+            />
+          </div>,
+          <div
+            className="form__input"
+          >
+            <label>
+              Song Names
+            </label>
+            <input
+              autoFocus={true}
+              className="text-input"
+              onChange={[Function]}
+              placeholder="Names"
+              type="text"
+              value=""
+            />
+          </div>,
+          <div
+            className="form__input"
+          >
+            <label>
+              Lead Tuning
+            </label>
+            <input
+              autoFocus={true}
+              className="text-input"
+              onChange={[Function]}
+              placeholder="Lead Tuning"
+              type="text"
+              value=""
+            />
+          </div>,
+          <div
+            className="form__input"
+          >
+            <label>
+              Rhythm Tunings
+            </label>
+            <input
+              autoFocus={true}
+              className="text-input"
+              onChange={[Function]}
+              placeholder="Rhythm Tunings"
+              type="text"
+              value=""
+            />
+          </div>,
+          <div
+            className="form__input"
+          >
+            <label>
+              Bass Tuning
+            </label>
+            <input
+              autoFocus={true}
+              className="text-input"
+              onChange={[Function]}
+              placeholder="Bass Tuning"
+              type="text"
+              value=""
+            />
+          </div>,
+          <div
+            className="buttons"
+          >
+            <button
+              className="button"
+              onClick={[Function]}
+            >
+              Reset
+            </button>
+            <button
+              className="button"
+            >
+              Submit
+            </button>
+          </div>,
+        ],
+        "className": "form",
+        "onSubmit": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                Artist Names
+              </label>,
+              <input
+                autoFocus={true}
+                className="text-input"
+                onChange={[Function]}
+                placeholder="Names"
+                type="text"
+                value=""
+              />,
+            ],
+            "className": "form__input",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Artist Names",
+              },
+              "ref": null,
+              "rendered": "Artist Names",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "autoFocus": true,
+                "className": "text-input",
+                "onChange": [Function],
+                "placeholder": "Names",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                Song Names
+              </label>,
+              <input
+                autoFocus={true}
+                className="text-input"
+                onChange={[Function]}
+                placeholder="Names"
+                type="text"
+                value=""
+              />,
+            ],
+            "className": "form__input",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Song Names",
+              },
+              "ref": null,
+              "rendered": "Song Names",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "autoFocus": true,
+                "className": "text-input",
+                "onChange": [Function],
+                "placeholder": "Names",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                Lead Tuning
+              </label>,
+              <input
+                autoFocus={true}
+                className="text-input"
+                onChange={[Function]}
+                placeholder="Lead Tuning"
+                type="text"
+                value=""
+              />,
+            ],
+            "className": "form__input",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lead Tuning",
+              },
+              "ref": null,
+              "rendered": "Lead Tuning",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "autoFocus": true,
+                "className": "text-input",
+                "onChange": [Function],
+                "placeholder": "Lead Tuning",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                Rhythm Tunings
+              </label>,
+              <input
+                autoFocus={true}
+                className="text-input"
+                onChange={[Function]}
+                placeholder="Rhythm Tunings"
+                type="text"
+                value=""
+              />,
+            ],
+            "className": "form__input",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Rhythm Tunings",
+              },
+              "ref": null,
+              "rendered": "Rhythm Tunings",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "autoFocus": true,
+                "className": "text-input",
+                "onChange": [Function],
+                "placeholder": "Rhythm Tunings",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                Bass Tuning
+              </label>,
+              <input
+                autoFocus={true}
+                className="text-input"
+                onChange={[Function]}
+                placeholder="Bass Tuning"
+                type="text"
+                value=""
+              />,
+            ],
+            "className": "form__input",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Bass Tuning",
+              },
+              "ref": null,
+              "rendered": "Bass Tuning",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "autoFocus": true,
+                "className": "text-input",
+                "onChange": [Function],
+                "placeholder": "Bass Tuning",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="button"
+                onClick={[Function]}
+              >
+                Reset
+              </button>,
+              <button
+                className="button"
+              >
+                Submit
+              </button>,
+            ],
+            "className": "buttons",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Reset",
+                "className": "button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Reset",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Submit",
+                "className": "button",
+              },
+              "ref": null,
+              "rendered": "Submit",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "form",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <form
+          className="form"
+          onSubmit={[Function]}
+        >
+          <div
+            className="form__input"
+          >
+            <label>
+              Artist Names
+            </label>
+            <input
+              autoFocus={true}
+              className="text-input"
+              onChange={[Function]}
+              placeholder="Names"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="form__input"
+          >
+            <label>
+              Song Names
+            </label>
+            <input
+              autoFocus={true}
+              className="text-input"
+              onChange={[Function]}
+              placeholder="Names"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="form__input"
+          >
+            <label>
+              Lead Tuning
+            </label>
+            <input
+              autoFocus={true}
+              className="text-input"
+              onChange={[Function]}
+              placeholder="Lead Tuning"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="form__input"
+          >
+            <label>
+              Rhythm Tunings
+            </label>
+            <input
+              autoFocus={true}
+              className="text-input"
+              onChange={[Function]}
+              placeholder="Rhythm Tunings"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="form__input"
+          >
+            <label>
+              Bass Tuning
+            </label>
+            <input
+              autoFocus={true}
+              className="text-input"
+              onChange={[Function]}
+              placeholder="Bass Tuning"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="buttons"
+          >
+            <button
+              className="button"
+              onClick={[Function]}
+            >
+              Reset
+            </button>
+            <button
+              className="button"
+            >
+              Submit
+            </button>
+          </div>
+        </form>,
+        "className": "content-container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="form__input"
+            >
+              <label>
+                Artist Names
+              </label>
+              <input
+                autoFocus={true}
+                className="text-input"
+                onChange={[Function]}
+                placeholder="Names"
+                type="text"
+                value=""
+              />
+            </div>,
+            <div
+              className="form__input"
+            >
+              <label>
+                Song Names
+              </label>
+              <input
+                autoFocus={true}
+                className="text-input"
+                onChange={[Function]}
+                placeholder="Names"
+                type="text"
+                value=""
+              />
+            </div>,
+            <div
+              className="form__input"
+            >
+              <label>
+                Lead Tuning
+              </label>
+              <input
+                autoFocus={true}
+                className="text-input"
+                onChange={[Function]}
+                placeholder="Lead Tuning"
+                type="text"
+                value=""
+              />
+            </div>,
+            <div
+              className="form__input"
+            >
+              <label>
+                Rhythm Tunings
+              </label>
+              <input
+                autoFocus={true}
+                className="text-input"
+                onChange={[Function]}
+                placeholder="Rhythm Tunings"
+                type="text"
+                value=""
+              />
+            </div>,
+            <div
+              className="form__input"
+            >
+              <label>
+                Bass Tuning
+              </label>
+              <input
+                autoFocus={true}
+                className="text-input"
+                onChange={[Function]}
+                placeholder="Bass Tuning"
+                type="text"
+                value=""
+              />
+            </div>,
+            <div
+              className="buttons"
+            >
+              <button
+                className="button"
+                onClick={[Function]}
+              >
+                Reset
+              </button>
+              <button
+                className="button"
+              >
+                Submit
+              </button>
+            </div>,
+          ],
+          "className": "form",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label>
+                  Artist Names
+                </label>,
+                <input
+                  autoFocus={true}
+                  className="text-input"
+                  onChange={[Function]}
+                  placeholder="Names"
+                  type="text"
+                  value=""
+                />,
+              ],
+              "className": "form__input",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Artist Names",
+                },
+                "ref": null,
+                "rendered": "Artist Names",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "autoFocus": true,
+                  "className": "text-input",
+                  "onChange": [Function],
+                  "placeholder": "Names",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label>
+                  Song Names
+                </label>,
+                <input
+                  autoFocus={true}
+                  className="text-input"
+                  onChange={[Function]}
+                  placeholder="Names"
+                  type="text"
+                  value=""
+                />,
+              ],
+              "className": "form__input",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Song Names",
+                },
+                "ref": null,
+                "rendered": "Song Names",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "autoFocus": true,
+                  "className": "text-input",
+                  "onChange": [Function],
+                  "placeholder": "Names",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label>
+                  Lead Tuning
+                </label>,
+                <input
+                  autoFocus={true}
+                  className="text-input"
+                  onChange={[Function]}
+                  placeholder="Lead Tuning"
+                  type="text"
+                  value=""
+                />,
+              ],
+              "className": "form__input",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Lead Tuning",
+                },
+                "ref": null,
+                "rendered": "Lead Tuning",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "autoFocus": true,
+                  "className": "text-input",
+                  "onChange": [Function],
+                  "placeholder": "Lead Tuning",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label>
+                  Rhythm Tunings
+                </label>,
+                <input
+                  autoFocus={true}
+                  className="text-input"
+                  onChange={[Function]}
+                  placeholder="Rhythm Tunings"
+                  type="text"
+                  value=""
+                />,
+              ],
+              "className": "form__input",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Rhythm Tunings",
+                },
+                "ref": null,
+                "rendered": "Rhythm Tunings",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "autoFocus": true,
+                  "className": "text-input",
+                  "onChange": [Function],
+                  "placeholder": "Rhythm Tunings",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label>
+                  Bass Tuning
+                </label>,
+                <input
+                  autoFocus={true}
+                  className="text-input"
+                  onChange={[Function]}
+                  placeholder="Bass Tuning"
+                  type="text"
+                  value=""
+                />,
+              ],
+              "className": "form__input",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Bass Tuning",
+                },
+                "ref": null,
+                "rendered": "Bass Tuning",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "autoFocus": true,
+                  "className": "text-input",
+                  "onChange": [Function],
+                  "placeholder": "Bass Tuning",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="button"
+                  onClick={[Function]}
+                >
+                  Reset
+                </button>,
+                <button
+                  className="button"
+                >
+                  Submit
+                </button>,
+              ],
+              "className": "buttons",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Reset",
+                  "className": "button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Reset",
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Submit",
+                  "className": "button",
+                },
+                "ref": null,
+                "rendered": "Submit",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "form",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultsPage Rendering Test - Data Rendering 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ResultsPage
+    dlc={
+      Array [
+        Object {
+          "artist": "Amon Amarth",
+          "bassTuning": "E Standard",
+          "leadTuning": "Custom Tuning (AEADF#B)",
+          "name": "Guardians of Asgaard",
+          "rhythmTuning": "Custom Tuning (AEADF#B)",
+        },
+        Object {
+          "artist": "Amon Amarth",
+          "bassTuning": "E Standard",
+          "leadTuning": "Custom Tuning (B Standard)",
+          "name": "The Pursuit of VIkings",
+          "rhythmTuning": "Custom Tuning (B Standard)",
+        },
+        Object {
+          "artist": "Amon Amarth",
+          "bassTuning": "E Standard",
+          "leadTuning": "Custom Tuning (B Standard)",
+          "name": "War Of The Gods",
+          "rhythmTuning": "Custom Tuning (B Standard)",
+        },
+        Object {
+          "artist": "Amon Amarth",
+          "bassTuning": "E Standard",
+          "leadTuning": "Custom Tuning (B Standard)",
+          "name": "Twilight Of The Thunder God",
+          "rhythmTuning": "Custom Tuning (B Standard)",
+        },
+        Object {
+          "artist": "Amon Amarth",
+          "bassTuning": "E Standard",
+          "leadTuning": "Custom Tuning (B Standard)",
+          "name": "Death In Fire",
+          "rhythmTuning": "Custom Tuning (B Standard)",
+        },
+        Object {
+          "artist": "Dethklok",
+          "bassTuning": "C Standard",
+          "leadTuning": "C Standard",
+          "name": "Bloodlines",
+          "rhythmTuning": "C Standard",
+        },
+        Object {
+          "artist": "Dethklok",
+          "bassTuning": "C Standard",
+          "leadTuning": "C Standard",
+          "name": "Murmaider",
+          "rhythmTuning": "C Standard",
+        },
+        Object {
+          "artist": "Dethklok",
+          "bassTuning": "C Standard",
+          "leadTuning": "C Standard",
+          "name": "Black Fire Upon Us",
+          "rhythmTuning": "C Standard",
+        },
+        Object {
+          "artist": "Dethklok",
+          "bassTuning": "C Standard",
+          "leadTuning": "C Standard",
+          "name": "Go Into The Water",
+          "rhythmTuning": "C Standard",
+        },
+        Object {
+          "artist": "Dethklok",
+          "bassTuning": "C Standard",
+          "leadTuning": "C Standard",
+          "name": "Awaken",
+          "rhythmTuning": "C Standard",
+        },
+        Object {
+          "artist": "Dethklok",
+          "bassTuning": "C Standard",
+          "leadTuning": "C Standard",
+          "name": "Thunderhorse",
+          "rhythmTuning": "C Standard",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Header />,
+        <Connect(DLCList) />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Header />,
+          <Connect(DLCList) />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`ResultsPage Rendering Test - No Data Rendering 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ResultsPage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Header />,
+        <Connect(DLCList) />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Header />,
+          <Connect(DLCList) />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

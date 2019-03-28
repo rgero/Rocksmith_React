@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SearchHeader = () => (
+export const SearchHeader = () => (
     <div className="page-header">
         <h1 className="page-header__title">
             Enter your search criteria

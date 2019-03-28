@@ -6,7 +6,7 @@ import SearchHeader from './SearchHeader';
 import { SearchForm } from './SearchForm';
 import {executeQuery} from '../actions/dlc';
 
-class SearchPage extends React.Component {
+export class SearchPage extends React.Component {
 
   constructor(props){
     super(props);

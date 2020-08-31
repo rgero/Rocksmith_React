@@ -1,7 +1,7 @@
 import {generateURL} from '../helpers/QueryParser';
 
 export const setDLC = (dlc) => ({
-    type: "SET_DLC",
+    type: 'SET_DLC',
     dlc
 })
 

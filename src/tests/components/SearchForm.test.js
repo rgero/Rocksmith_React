@@ -3,94 +3,94 @@ import React from 'react'
 import {shallow} from 'enzyme'
 import {SearchForm} from '../../components/SearchForm';
 
-test("Search Form Rendering Test", ()=>{
+test('Search Form Rendering Test', ()=>{
     const wrapper = shallow(<SearchForm/>);
     expect(wrapper).toMatchSnapshot();
 })
 
-test("Input - Artist change", ()=>{
+test('Input - Artist change', ()=>{
     const wrapper = shallow(<SearchForm/>);
     const testElem = wrapper.find('input')
     expect(testElem.length).toBe(5);
     
     //Testing Hours
     const artistElem = testElem.at(0);
-    var artist = "Rise Against";
+    var artist = 'Rise Against';
     artistElem.simulate('change', {
         target: {value: artist}
     })
-    expect(wrapper.state('artistNames')).toBe("Rise Against");
+    expect(wrapper.state('artistNames')).toBe('Rise Against');
 })
 
-test("Input - Song change", ()=>{
+test('Input - Song change', ()=>{
     const wrapper = shallow(<SearchForm/>);
     const testElem = wrapper.find('input')
     expect(testElem.length).toBe(5);
     
     //Testing Hours
     const songElem = testElem.at(1);
-    var songTest = "Savior";
+    var songTest = 'Savior';
     songElem.simulate('change', {
         target: {value: songTest}
     })
-    expect(wrapper.state('songNames')).toBe("Savior");
+    expect(wrapper.state('songNames')).toBe('Savior');
 })
 
-test("Input - Lead Tuning change", ()=>{
+test('Input - Lead Tuning change', ()=>{
     const wrapper = shallow(<SearchForm/>);
     const testElem = wrapper.find('input')
     expect(testElem.length).toBe(5);
     
     //Testing Hours
     const lTuningElem = testElem.at(2);
-    var lTuning = "Eb Standard";
+    var lTuning = 'Eb Standard';
     lTuningElem.simulate('change', {
         target: {value: lTuning}
     })
-    expect(wrapper.state('leadTunings')).toBe("Eb Standard");
+    expect(wrapper.state('leadTunings')).toBe('Eb Standard');
 })
 
-test("Input - Rhythm Tuning change", ()=>{
+test('Input - Rhythm Tuning change', ()=>{
     const wrapper = shallow(<SearchForm/>);
     const testElem = wrapper.find('input')
     expect(testElem.length).toBe(5);
     
     //Testing Hours
     const rTuningElem = testElem.at(3);
-    var rTuning = "Eb Standard";
+    var rTuning = 'Eb Standard';
     rTuningElem.simulate('change', {
         target: {value: rTuning}
     })
-    expect(wrapper.state('rhythmTunings')).toBe("Eb Standard");
+    expect(wrapper.state('rhythmTunings')).toBe('Eb Standard');
 })
 
-test("Input - Bass Tuning change", ()=>{
+test('Input - Bass Tuning change', ()=>{
     const wrapper = shallow(<SearchForm/>);
     const testElem = wrapper.find('input')
     expect(testElem.length).toBe(5);
     
     //Testing Hours
     const bassElem = testElem.at(4);
-    var bassTuning = "D Standard";
+    var bassTuning = 'D Standard';
     bassElem.simulate('change', {
         target: {value: bassTuning}
     })
-    expect(wrapper.state('bassTunings')).toBe("D Standard");
+    expect(wrapper.state('bassTunings')).toBe('D Standard');
 })
 
 
-test("Testing onSubmit for a valid form submission", () => {
+test('Testing onSubmit for a valid form submission', () => {
     const onSubmitSpy = jest.fn();
     const wrapper = shallow(<SearchForm onSubmit={onSubmitSpy}/>);
     const testElem = wrapper.find('input')
     expect(testElem.length).toBe(5);
     
     var testData = {
-        artist: "Rise Against",
-        song: "Approaching Curve",
-        leadTuning: "Lead",
-        rhythmTuning: "Rhythm",
-        bassTuning: "Bass"
+        artist: 'Rise Against',
+        song: 'Approaching Curve',
+        leadTuning: 'Lead',
+        rhythmTuning: 'Rhythm',
+        bassTuning: 'Bass'
     }
 
     // Fill out the forms.
@@ -110,7 +110,7 @@ test("Testing onSubmit for a valid form submission", () => {
         target: {value: testData.bassTuning}
     })
 
-    wrapper.find('form').simulate("submit", {
+    wrapper.find('form').simulate('submit', {
         preventDefault: ()=>{}
     });
     expect(onSubmitSpy).toHaveBeenLastCalledWith({

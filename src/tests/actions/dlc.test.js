@@ -11,7 +11,7 @@ test('Testing setDLC reducer', ()=> {
     store.dispatch(setDLC(dlc));
     const actions = store.getActions();
     expect(actions[0]).toEqual({
-        type: "SET_DLC",
+        type: 'SET_DLC',
         dlc: dlc
     });
 })

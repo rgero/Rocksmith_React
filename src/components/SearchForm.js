@@ -11,11 +11,11 @@ export class SearchForm extends React.Component {
         this.resetState = this.resetState.bind(this);
 
         this.state = {
-            artistNames: "",
-            songNames: "",
-            leadTunings: "",
-            rhythmTunings: "",
-            bassTunings: ""
+            artistNames: '',
+            songNames: '',
+            leadTunings: '',
+            rhythmTunings: '',
+            bassTunings: ''
         };
     };
     
@@ -32,38 +32,38 @@ export class SearchForm extends React.Component {
 
     resetState(){
         this.setState({
-            artistNames: "",
-            songNames: "",
-            leadTunings: "",
-            rhythmTunings: "",
-            bassTunings: "",
+            artistNames: '',
+            songNames: '',
+            leadTunings: '',
+            rhythmTunings: '',
+            bassTunings: '',
         })
     }
 
     onTextChange = (key) => (e) => {
         var newValue = e.target.value;
         switch(key){
-            case "artistNames":
+            case 'artistNames':
                 this.setState({
                     artistNames: newValue
                 });
                 break;
-            case "songNames":
+            case 'songNames':
                 this.setState({
                     songNames: newValue
                 });
                 break;
-            case "leadTunings":
+            case 'leadTunings':
                 this.setState({
                     leadTunings: newValue
                 });
                 break;
-            case "rhythmTunings":
+            case 'rhythmTunings':
                 this.setState({
                     rhythmTunings: newValue
                 });
                 break;
-            case "bassTunings":
+            case 'bassTunings':
                 this.setState({
                     bassTunings: newValue
                 });
@@ -75,66 +75,66 @@ export class SearchForm extends React.Component {
 
     render() {
         return (
-            <div className="content-container">
-                <form className="form" onSubmit={this.onSubmit}>
-                    <div className="form__input">
+            <div className='content-container'>
+                <form className='form' onSubmit={this.onSubmit}>
+                    <div className='form__input'>
                         <label>Artist Names</label>
                         <input
-                            type="text"
-                            className="text-input"
-                            placeholder="Names"
+                            type='text'
+                            className='text-input'
+                            placeholder='Names'
                             autoFocus
                             value={this.state.artistNames}
-                            onChange={this.onTextChange("artistNames")}
+                            onChange={this.onTextChange('artistNames')}
                         />
                     </div>
-                    <div className="form__input">
+                    <div className='form__input'>
                         <label>Song Names</label>
                         <input
-                            type="text"
-                            className="text-input"
-                            placeholder="Names"
+                            type='text'
+                            className='text-input'
+                            placeholder='Names'
                             autoFocus
                             value={this.state.songNames}
-                            onChange={this.onTextChange("songNames")}
+                            onChange={this.onTextChange('songNames')}
                         />
                     </div>
-                    <div className="form__input">
+                    <div className='form__input'>
                         <label>Lead Tuning</label>
                         <input
-                            type="text"
-                            className="text-input"
-                            placeholder="Lead Tuning"
+                            type='text'
+                            className='text-input'
+                            placeholder='Lead Tuning'
                             autoFocus
                             value={this.state.leadTunings}
-                            onChange={this.onTextChange("leadTunings")}
+                            onChange={this.onTextChange('leadTunings')}
                         />
                     </div>
-                    <div className="form__input">
+                    <div className='form__input'>
                         <label>Rhythm Tunings</label>
                         <input
-                            type="text"
-                            className="text-input"
-                            placeholder="Rhythm Tunings"
+                            type='text'
+                            className='text-input'
+                            placeholder='Rhythm Tunings'
                             autoFocus
                             value={this.state.rhythmTunings}
-                            onChange={this.onTextChange("rhythmTunings")}
+                            onChange={this.onTextChange('rhythmTunings')}
                         />
                     </div>
-                    <div className="form__input">
+                    <div className='form__input'>
                         <label>Bass Tuning</label>
                         <input
-                            type="text"
-                            className="text-input"
-                            placeholder="Bass Tuning"
+                            type='text'
+                            className='text-input'
+                            placeholder='Bass Tuning'
                             autoFocus
                             value={this.state.bassTunings}
-                            onChange={this.onTextChange("bassTunings")}
+                            onChange={this.onTextChange('bassTunings')}
                         />
                     </div>
-                    <div className="buttons">
-                        <button className="button" onClick={this.resetState}>Reset</button>
-                        <button className="button">Submit</button>
+                    <div className='buttons'>
+                        <button className='button' onClick={this.resetState}>Reset</button>
+                        <button className='button'>Submit</button>
                     </div>
                 </form>
             </div>

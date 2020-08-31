@@ -7,14 +7,14 @@ import NotFoundPage from '../components/NotFoundPage';
 import ResultsPage from '../components/ResultsPage';
 
 
-export const history = require("history").createBrowserHistory();
+export const history = require('history').createBrowserHistory();
 
 const AppRouter = () => (
   <Router history={history}>
     <div>
       <Switch>
-        <Route path="/" component={SearchPage} exact={true}/>
-        <Route path="/results" component={ResultsPage} exact={true} />
+        <Route path='/' component={SearchPage} exact={true}/>
+        <Route path='/results' component={ResultsPage} exact={true} />
         <Route component={NotFoundPage} />
         
       </Switch>

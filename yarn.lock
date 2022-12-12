@@ -7350,7 +7350,7 @@ raw-body@2.5.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-addons-shallow-compare@^15.6.2:
+react-addons-shallow-compare@^15.6.3:
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/react-addons-shallow-compare/-/react-addons-shallow-compare-15.6.3.tgz#28a94b0dfee71530852c66a69053d59a1baf04cb"
   dependencies:
